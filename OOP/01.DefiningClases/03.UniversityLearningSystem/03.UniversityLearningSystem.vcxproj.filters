@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Contracts\Person.cpp">
+      <Filter>Contracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Contracts\Trainer.cpp">
+      <Filter>Contracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainers\JuniorTrainer.cpp">
+      <Filter>Trainers</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainers\SeniorTrainer.cpp">
+      <Filter>Trainers</Filter>
+    </ClCompile>
+    <ClCompile Include="Contracts\Student.cpp">
+      <Filter>Contracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\GraduateStudent.cpp">
+      <Filter>Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\DropoutStudent.cpp">
+      <Filter>Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\CurrentStudent.cpp">
+      <Filter>Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\OnlineStudent.cpp">
+      <Filter>Students</Filter>
+    </ClCompile>
+    <ClCompile Include="Students\OnsiteStudent.cpp">
+      <Filter>Students</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contracts">
+      <UniqueIdentifier>{c0f8e056-db20-414e-b534-502a43a3e700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainers">
+      <UniqueIdentifier>{22debf8c-5044-45ee-841a-fbf7f3eebbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Students">
+      <UniqueIdentifier>{d8e817a7-16e8-45f6-a837-31c89e8f9e68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Contracts\Person.h">
+      <Filter>Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Contracts\Trainer.h">
+      <Filter>Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainerType.h">
+      <Filter>Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainers\JuniorTrainer.h">
+      <Filter>Trainers</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainers\SeniorTrainer.h">
+      <Filter>Trainers</Filter>
+    </ClInclude>
+    <ClInclude Include="Contracts\StudentType.h">
+      <Filter>Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Contracts\Student.h">
+      <Filter>Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\GraduateStudent.h">
+      <Filter>Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\DropoutStudent.h">
+      <Filter>Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\CurrentStudent.h">
+      <Filter>Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\OnlineStudent.h">
+      <Filter>Students</Filter>
+    </ClInclude>
+    <ClInclude Include="Students\OnsiteStudent.h">
+      <Filter>Students</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

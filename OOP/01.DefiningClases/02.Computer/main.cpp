@@ -4,8 +4,6 @@
 
 #include "Computer.h"
 
-
-
 int main()
 {
 	std::shared_ptr<Component> processor(
