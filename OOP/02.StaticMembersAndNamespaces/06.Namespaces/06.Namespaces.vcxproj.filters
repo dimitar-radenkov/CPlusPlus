@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Geometry2D">
+      <UniqueIdentifier>{72bc39c6-975f-4ceb-8615-43bbbc9b6355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry3D">
+      <UniqueIdentifier>{93d0a7fe-15b6-48e4-a2c6-9097d2beda61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{f923f50e-2313-4ceb-b3b2-e4e9cf2f0cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{5d2f9b7c-792b-4d28-b176-fa3a4f4029a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry2D\Point2D.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\Figure2D.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\Square.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\Rectangle.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\Polygon.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\Circle.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\Ellipse.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry2D\DistanceCalulator.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry3D\Point3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry3D\Path3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry3D\DistanceCalculator.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Screen2D.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Screen3D.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\GeometryXMLStorage.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\GeometryBinaryStorage.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\GeometrySVGStorage.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

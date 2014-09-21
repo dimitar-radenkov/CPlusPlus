@@ -10,7 +10,6 @@ int main()
 
 	std::cout << bits.toString() << std::endl;
 
-
 	system("pause");
 	return 0;
 }
