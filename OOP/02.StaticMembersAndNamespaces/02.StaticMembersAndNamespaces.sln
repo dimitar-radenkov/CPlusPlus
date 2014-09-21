@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.DistanceCalculator", "02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.Paths", "03.Paths\03.Paths.vcxproj", "{3B8E1E7A-9DDC-4833-B517-AE2F506EEA21}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.HTML Dispatcher", "04.HTML Dispatcher\04.HTML Dispatcher.vcxproj", "{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -43,6 +45,14 @@ Global
 		{3B8E1E7A-9DDC-4833-B517-AE2F506EEA21}.Release|Win32.ActiveCfg = Release|Win32
 		{3B8E1E7A-9DDC-4833-B517-AE2F506EEA21}.Release|Win32.Build.0 = Release|Win32
 		{3B8E1E7A-9DDC-4833-B517-AE2F506EEA21}.Release|x64.ActiveCfg = Release|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Debug|ARM.ActiveCfg = Debug|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Debug|Win32.Build.0 = Debug|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Debug|x64.ActiveCfg = Debug|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|ARM.ActiveCfg = Release|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|Win32.ActiveCfg = Release|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|Win32.Build.0 = Release|Win32
+		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
