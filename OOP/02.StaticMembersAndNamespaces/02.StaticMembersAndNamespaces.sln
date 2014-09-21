@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.Paths", "03.Paths\03.Pat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.HTML Dispatcher", "04.HTML Dispatcher\04.HTML Dispatcher.vcxproj", "{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.BitArray", "05.BitArray\05.BitArray.vcxproj", "{9F05C853-3B7A-4F72-8C40-01C9EA03D695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -53,6 +55,14 @@ Global
 		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|Win32.ActiveCfg = Release|Win32
 		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|Win32.Build.0 = Release|Win32
 		{98AE2B03-EAAC-4895-9BF2-4210B9789ACB}.Release|x64.ActiveCfg = Release|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Debug|ARM.ActiveCfg = Debug|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Debug|Win32.Build.0 = Debug|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Debug|x64.ActiveCfg = Debug|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Release|ARM.ActiveCfg = Release|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Release|Win32.ActiveCfg = Release|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Release|Win32.Build.0 = Release|Win32
+		{9F05C853-3B7A-4F72-8C40-01C9EA03D695}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
