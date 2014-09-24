@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.CallBacks", "01.CallBacks\01.CallBacks.vcxproj", "{1DF5138E-EFF0-447E-9A3D-34F40DED2ABE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.Bindings", "02.Bindings\02.Bindings.vcxproj", "{14CD19AA-4ABB-447A-A69E-377579827052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF5138E-EFF0-447E-9A3D-34F40DED2ABE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1DF5138E-EFF0-447E-9A3D-34F40DED2ABE}.Debug|Win32.Build.0 = Debug|Win32
+		{1DF5138E-EFF0-447E-9A3D-34F40DED2ABE}.Release|Win32.ActiveCfg = Release|Win32
+		{1DF5138E-EFF0-447E-9A3D-34F40DED2ABE}.Release|Win32.Build.0 = Release|Win32
+		{14CD19AA-4ABB-447A-A69E-377579827052}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14CD19AA-4ABB-447A-A69E-377579827052}.Debug|Win32.Build.0 = Debug|Win32
+		{14CD19AA-4ABB-447A-A69E-377579827052}.Release|Win32.ActiveCfg = Release|Win32
+		{14CD19AA-4ABB-447A-A69E-377579827052}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
