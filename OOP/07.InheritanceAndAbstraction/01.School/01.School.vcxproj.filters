@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Models\Teacher.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Student.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{b019f4e1-03fc-4c27-b868-bc3f56ff57ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Human.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Discipline.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Teacher.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Student.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
