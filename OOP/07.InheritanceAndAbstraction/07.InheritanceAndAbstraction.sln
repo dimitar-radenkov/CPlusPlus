@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.School", "01.School\01.School.vcxproj", "{3ACF4219-6E85-43CA-82A9-A4181AE1A0BB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.HumanStudentWorker", "02.HumanStudentWorker\02.HumanStudentWorker.vcxproj", "{A4DB0CBF-6772-448D-AC44-6875C119873B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.AnimalKingdom", "03.AnimalKingdom\03.AnimalKingdom.vcxproj", "{24BAAA14-8427-4AD9-B952-B50C9B4AB5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +19,14 @@ Global
 		{3ACF4219-6E85-43CA-82A9-A4181AE1A0BB}.Debug|Win32.Build.0 = Debug|Win32
 		{3ACF4219-6E85-43CA-82A9-A4181AE1A0BB}.Release|Win32.ActiveCfg = Release|Win32
 		{3ACF4219-6E85-43CA-82A9-A4181AE1A0BB}.Release|Win32.Build.0 = Release|Win32
+		{A4DB0CBF-6772-448D-AC44-6875C119873B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4DB0CBF-6772-448D-AC44-6875C119873B}.Debug|Win32.Build.0 = Debug|Win32
+		{A4DB0CBF-6772-448D-AC44-6875C119873B}.Release|Win32.ActiveCfg = Release|Win32
+		{A4DB0CBF-6772-448D-AC44-6875C119873B}.Release|Win32.Build.0 = Release|Win32
+		{24BAAA14-8427-4AD9-B952-B50C9B4AB5FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24BAAA14-8427-4AD9-B952-B50C9B4AB5FE}.Debug|Win32.Build.0 = Debug|Win32
+		{24BAAA14-8427-4AD9-B952-B50C9B4AB5FE}.Release|Win32.ActiveCfg = Release|Win32
+		{24BAAA14-8427-4AD9-B952-B50C9B4AB5FE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

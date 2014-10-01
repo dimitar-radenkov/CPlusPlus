@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3ACF4219-6E85-43CA-82A9-A4181AE1A0BB}</ProjectGuid>
-    <RootNamespace>My01School</RootNamespace>
+    <ProjectGuid>{24BAAA14-8427-4AD9-B952-B50C9B4AB5FE}</ProjectGuid>
+    <RootNamespace>My03AnimalKingdom</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -39,7 +39,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>./;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\07.InheritanceAndAbstraction\03.AnimalKingdom;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -66,18 +66,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Models\Contracts\Animal.h" />
+    <ClInclude Include="Models\Contracts\Cat.h" />
+    <ClInclude Include="Models\Contracts\ISound.h" />
+    <ClInclude Include="Models\Dog.h" />
+    <ClInclude Include="Models\Frog.h" />
+    <ClInclude Include="Models\Kitten.h" />
+    <ClInclude Include="Models\TomCat.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Models\Student.cpp" />
-    <ClCompile Include="Models\Teacher.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Models\Discipline.h" />
-    <ClInclude Include="Models\Human.h" />
-    <ClInclude Include="Models\Student.h" />
-    <ClInclude Include="Models\Teacher.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\03.AnimalKingdom\03.AnimalKingdom.vcxproj" />
+    <ClCompile Include="Models\Dog.cpp" />
+    <ClCompile Include="Models\Frog.cpp" />
+    <ClCompile Include="Models\Kitten.cpp" />
+    <ClCompile Include="Models\TomCat.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

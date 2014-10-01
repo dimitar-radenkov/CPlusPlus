@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{0d0796d6-985a-487d-9e5f-85780fea8ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Contracts">
+      <UniqueIdentifier>{5e9a5c0a-3da7-4678-af88-e7c70b13ad58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Contracts\Animal.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\ISound.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\Cat.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Kitten.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\TomCat.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Dog.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Frog.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Models\Kitten.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\TomCat.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Dog.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Frog.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -10,9 +10,19 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Models\Student.cpp" />
+    <ClCompile Include="Models\Worker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Contracts\Human.h" />
+    <ClInclude Include="Models\Student.h" />
+    <ClInclude Include="Models\Worker.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3ACF4219-6E85-43CA-82A9-A4181AE1A0BB}</ProjectGuid>
-    <RootNamespace>My01School</RootNamespace>
+    <ProjectGuid>{A4DB0CBF-6772-448D-AC44-6875C119873B}</ProjectGuid>
+    <RootNamespace>My02HumanStudentWorker</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -39,13 +49,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>./;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Radenkov\Documents\Visual Studio 2013\Projects\07.InheritanceAndAbstraction\02.HumanStudentWorker;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -65,20 +76,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Models\Student.cpp" />
-    <ClCompile Include="Models\Teacher.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Models\Discipline.h" />
-    <ClInclude Include="Models\Human.h" />
-    <ClInclude Include="Models\Student.h" />
-    <ClInclude Include="Models\Teacher.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\03.AnimalKingdom\03.AnimalKingdom.vcxproj" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

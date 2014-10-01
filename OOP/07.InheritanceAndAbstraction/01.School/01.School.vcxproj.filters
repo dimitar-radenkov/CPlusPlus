@@ -28,4 +28,7 @@
       <Filter>Models</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\03.AnimalKingdom\03.AnimalKingdom.vcxproj" />
+  </ItemGroup>
 </Project>
