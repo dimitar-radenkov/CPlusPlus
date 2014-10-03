@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{a5f4ff57-48e3-47fd-b06b-da48a483650a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Contracts">
+      <UniqueIdentifier>{8f9737e4-fd7b-4ba5-9c98-fce7c05741ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Employees">
+      <UniqueIdentifier>{63044dac-51cf-4fd3-94b2-227cdd3826f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Contracts\IEmployee.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\IManager.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\IPerson.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Department.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Employees\Developer.h">
+      <Filter>Models\Employees</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Employees\SalesEmployee.h">
+      <Filter>Models\Employees</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\SaleEntity.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Project.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ProjectState.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Employees\Manager.h">
+      <Filter>Models\Employees</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Models\Employees\Developer.cpp">
+      <Filter>Models\Employees</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Employees\SalesEmployee.cpp">
+      <Filter>Models\Employees</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Employees\Manager.cpp">
+      <Filter>Models\Employees</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
