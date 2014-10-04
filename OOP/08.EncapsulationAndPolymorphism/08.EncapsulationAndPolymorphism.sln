@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.Shape", "01.Shape\01.Shape.vcxproj", "{9B929C93-949D-47E3-8C45-D427F4AD5F39}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.Bank", "02.Bank\02.Bank.vcxproj", "{D1D04D6A-7DDC-439C-8A3B-6CB840D98175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{9B929C93-949D-47E3-8C45-D427F4AD5F39}.Debug|Win32.Build.0 = Debug|Win32
 		{9B929C93-949D-47E3-8C45-D427F4AD5F39}.Release|Win32.ActiveCfg = Release|Win32
 		{9B929C93-949D-47E3-8C45-D427F4AD5F39}.Release|Win32.Build.0 = Release|Win32
+		{D1D04D6A-7DDC-439C-8A3B-6CB840D98175}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1D04D6A-7DDC-439C-8A3B-6CB840D98175}.Debug|Win32.Build.0 = Debug|Win32
+		{D1D04D6A-7DDC-439C-8A3B-6CB840D98175}.Release|Win32.ActiveCfg = Release|Win32
+		{D1D04D6A-7DDC-439C-8A3B-6CB840D98175}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

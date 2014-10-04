@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Models\Customers\CompanyCustomer.cpp">
+      <Filter>Models\Customers</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Customers\IndividualCustomer.cpp">
+      <Filter>Models\Customers</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Accounts\DepositAccount.cpp">
+      <Filter>Models\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Accounts\LoanAccount.cpp">
+      <Filter>Models\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Accounts\MortgageAccount.cpp">
+      <Filter>Models\Accounts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{c9c055e7-b590-4971-a9ef-e12214aecc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Contracts">
+      <UniqueIdentifier>{4c67a95f-fbf3-4b90-a474-53d3a7fc19c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Customers">
+      <UniqueIdentifier>{b7196305-51d3-4364-8239-d53036feacbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Accounts">
+      <UniqueIdentifier>{ac0e239c-890d-4cb4-bc31-b2785c17916a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Contracts\Account.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\Customer.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\IDepositable.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Contracts\IWithdrawable.h">
+      <Filter>Models\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Customers\CompanyCustomer.h">
+      <Filter>Models\Customers</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Customers\CustomerType.h">
+      <Filter>Models\Customers</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Customers\IndividualCustomer.h">
+      <Filter>Models\Customers</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Accounts\AccountType.h">
+      <Filter>Models\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Accounts\DepositAccount.h">
+      <Filter>Models\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Accounts\LoanAccount.h">
+      <Filter>Models\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Accounts\MortgageAccount.h">
+      <Filter>Models\Accounts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
