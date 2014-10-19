@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.DontWaitForCompletion", "01.DontWaitForCompletion\01.DontWaitForCompletion.vcxproj", "{A82B5BFA-5213-41AB-9DF6-2C9BD3BA6D76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.WaitForCompletion", "02.WaitForCompletion\02.WaitForCompletion.vcxproj", "{7B63441E-F7DE-45A5-8709-23264B299FCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.PassingArgumentsToThread", "03.PassingArgumentsToThread\03.PassingArgumentsToThread.vcxproj", "{E7909E64-B248-40A4-A3F8-D2C7CCA75BB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.TransferingOwnershipOfThread", "04.TransferingOwnershipOfThread\04.TransferingOwnershipOfThread.vcxproj", "{5EA32E38-ABE7-434D-A5D0-24D82BF31E8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.ReturnThreadFromFunction", "05.ReturnThreadFromFunction\05.ReturnThreadFromFunction.vcxproj", "{03CB78D7-B26F-42B7-83D3-41DC010D49D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.ScopedThread", "06.ScopedThread\06.ScopedThread.vcxproj", "{0D3ACEB8-52C5-4DFB-AC06-DA9E520D0BCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.SpawnThreadsAndWaitThemToFinish", "07.SpawnThreadsAndWaitThemToFinish\07.SpawnThreadsAndWaitThemToFinish.vcxproj", "{49D526F4-30E9-466E-B910-4AC12898840F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.IdentifyingThreads", "08.IdentifyingThreads\08.IdentifyingThreads.vcxproj", "{A7A53823-BABB-4964-8F6D-C10FD4E0C195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A82B5BFA-5213-41AB-9DF6-2C9BD3BA6D76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A82B5BFA-5213-41AB-9DF6-2C9BD3BA6D76}.Debug|Win32.Build.0 = Debug|Win32
+		{A82B5BFA-5213-41AB-9DF6-2C9BD3BA6D76}.Release|Win32.ActiveCfg = Release|Win32
+		{A82B5BFA-5213-41AB-9DF6-2C9BD3BA6D76}.Release|Win32.Build.0 = Release|Win32
+		{7B63441E-F7DE-45A5-8709-23264B299FCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B63441E-F7DE-45A5-8709-23264B299FCB}.Debug|Win32.Build.0 = Debug|Win32
+		{7B63441E-F7DE-45A5-8709-23264B299FCB}.Release|Win32.ActiveCfg = Release|Win32
+		{7B63441E-F7DE-45A5-8709-23264B299FCB}.Release|Win32.Build.0 = Release|Win32
+		{E7909E64-B248-40A4-A3F8-D2C7CCA75BB5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7909E64-B248-40A4-A3F8-D2C7CCA75BB5}.Debug|Win32.Build.0 = Debug|Win32
+		{E7909E64-B248-40A4-A3F8-D2C7CCA75BB5}.Release|Win32.ActiveCfg = Release|Win32
+		{E7909E64-B248-40A4-A3F8-D2C7CCA75BB5}.Release|Win32.Build.0 = Release|Win32
+		{5EA32E38-ABE7-434D-A5D0-24D82BF31E8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5EA32E38-ABE7-434D-A5D0-24D82BF31E8F}.Debug|Win32.Build.0 = Debug|Win32
+		{5EA32E38-ABE7-434D-A5D0-24D82BF31E8F}.Release|Win32.ActiveCfg = Release|Win32
+		{5EA32E38-ABE7-434D-A5D0-24D82BF31E8F}.Release|Win32.Build.0 = Release|Win32
+		{03CB78D7-B26F-42B7-83D3-41DC010D49D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03CB78D7-B26F-42B7-83D3-41DC010D49D6}.Debug|Win32.Build.0 = Debug|Win32
+		{03CB78D7-B26F-42B7-83D3-41DC010D49D6}.Release|Win32.ActiveCfg = Release|Win32
+		{03CB78D7-B26F-42B7-83D3-41DC010D49D6}.Release|Win32.Build.0 = Release|Win32
+		{0D3ACEB8-52C5-4DFB-AC06-DA9E520D0BCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D3ACEB8-52C5-4DFB-AC06-DA9E520D0BCD}.Debug|Win32.Build.0 = Debug|Win32
+		{0D3ACEB8-52C5-4DFB-AC06-DA9E520D0BCD}.Release|Win32.ActiveCfg = Release|Win32
+		{0D3ACEB8-52C5-4DFB-AC06-DA9E520D0BCD}.Release|Win32.Build.0 = Release|Win32
+		{49D526F4-30E9-466E-B910-4AC12898840F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49D526F4-30E9-466E-B910-4AC12898840F}.Debug|Win32.Build.0 = Debug|Win32
+		{49D526F4-30E9-466E-B910-4AC12898840F}.Release|Win32.ActiveCfg = Release|Win32
+		{49D526F4-30E9-466E-B910-4AC12898840F}.Release|Win32.Build.0 = Release|Win32
+		{A7A53823-BABB-4964-8F6D-C10FD4E0C195}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7A53823-BABB-4964-8F6D-C10FD4E0C195}.Debug|Win32.Build.0 = Debug|Win32
+		{A7A53823-BABB-4964-8F6D-C10FD4E0C195}.Release|Win32.ActiveCfg = Release|Win32
+		{A7A53823-BABB-4964-8F6D-C10FD4E0C195}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
