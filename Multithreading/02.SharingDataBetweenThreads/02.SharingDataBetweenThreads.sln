@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.DeadLocks", "02.DeadLock
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.LazyThreadSafeInitialization", "03.LazyThreadSafeInitialization\03.LazyThreadSafeInitialization.vcxproj", "{24E2A355-E7BB-4D8E-995D-64550C48D3E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.UniqueLockAndLockGuard", "04.UniqueLockAndLockGuard\04.UniqueLockAndLockGuard.vcxproj", "{1479A7CD-B489-4DEB-95D3-53B3680DE344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{24E2A355-E7BB-4D8E-995D-64550C48D3E5}.Debug|Win32.Build.0 = Debug|Win32
 		{24E2A355-E7BB-4D8E-995D-64550C48D3E5}.Release|Win32.ActiveCfg = Release|Win32
 		{24E2A355-E7BB-4D8E-995D-64550C48D3E5}.Release|Win32.Build.0 = Release|Win32
+		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Debug|Win32.Build.0 = Debug|Win32
+		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Release|Win32.ActiveCfg = Release|Win32
+		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
