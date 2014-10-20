@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.LazyThreadSafeInitializa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.UniqueLockAndLockGuard", "04.UniqueLockAndLockGuard\04.UniqueLockAndLockGuard.vcxproj", "{1479A7CD-B489-4DEB-95D3-53B3680DE344}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.ThreadSafeStack", "05.ThreadSafeStack\05.ThreadSafeStack.vcxproj", "{0407964B-6277-4FCC-BBAC-F5303041112C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Debug|Win32.Build.0 = Debug|Win32
 		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Release|Win32.ActiveCfg = Release|Win32
 		{1479A7CD-B489-4DEB-95D3-53B3680DE344}.Release|Win32.Build.0 = Release|Win32
+		{0407964B-6277-4FCC-BBAC-F5303041112C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0407964B-6277-4FCC-BBAC-F5303041112C}.Debug|Win32.Build.0 = Debug|Win32
+		{0407964B-6277-4FCC-BBAC-F5303041112C}.Release|Win32.ActiveCfg = Release|Win32
+		{0407964B-6277-4FCC-BBAC-F5303041112C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
