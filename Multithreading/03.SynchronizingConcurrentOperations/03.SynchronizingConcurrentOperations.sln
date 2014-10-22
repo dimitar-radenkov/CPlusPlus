@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.WaitingForConditionWithConditionVar", "01.WaitingForConditionWithConditionVar\01.WaitingForConditionWithConditionVar.vcxproj", "{FFE4828C-DF9A-41D5-889F-2020D01F5A79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.ThreadSafeQueue", "02.ThreadSafeQueue\02.ThreadSafeQueue.vcxproj", "{CDCC9CE1-139E-4EA6-A10E-C03D2585AF14}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.UseFutureGetReturnValue", "03.UseFutureGetReturnValue\03.UseFutureGetReturnValue.vcxproj", "{FFEFEEB4-7D58-479C-8476-18EE92C497C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.PassingArgsToStdAsync", "04.PassingArgsToStdAsync\04.PassingArgsToStdAsync.vcxproj", "{722028C8-9BED-4451-9763-4A59057B4DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE4828C-DF9A-41D5-889F-2020D01F5A79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFE4828C-DF9A-41D5-889F-2020D01F5A79}.Debug|Win32.Build.0 = Debug|Win32
+		{FFE4828C-DF9A-41D5-889F-2020D01F5A79}.Release|Win32.ActiveCfg = Release|Win32
+		{FFE4828C-DF9A-41D5-889F-2020D01F5A79}.Release|Win32.Build.0 = Release|Win32
+		{CDCC9CE1-139E-4EA6-A10E-C03D2585AF14}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDCC9CE1-139E-4EA6-A10E-C03D2585AF14}.Debug|Win32.Build.0 = Debug|Win32
+		{CDCC9CE1-139E-4EA6-A10E-C03D2585AF14}.Release|Win32.ActiveCfg = Release|Win32
+		{CDCC9CE1-139E-4EA6-A10E-C03D2585AF14}.Release|Win32.Build.0 = Release|Win32
+		{FFEFEEB4-7D58-479C-8476-18EE92C497C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFEFEEB4-7D58-479C-8476-18EE92C497C1}.Debug|Win32.Build.0 = Debug|Win32
+		{FFEFEEB4-7D58-479C-8476-18EE92C497C1}.Release|Win32.ActiveCfg = Release|Win32
+		{FFEFEEB4-7D58-479C-8476-18EE92C497C1}.Release|Win32.Build.0 = Release|Win32
+		{722028C8-9BED-4451-9763-4A59057B4DC7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{722028C8-9BED-4451-9763-4A59057B4DC7}.Debug|Win32.Build.0 = Debug|Win32
+		{722028C8-9BED-4451-9763-4A59057B4DC7}.Release|Win32.ActiveCfg = Release|Win32
+		{722028C8-9BED-4451-9763-4A59057B4DC7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
