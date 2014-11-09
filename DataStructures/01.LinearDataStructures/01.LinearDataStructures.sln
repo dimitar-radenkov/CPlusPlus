@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.AvgAndSumInSequence", "01.AvgAndSumInSequence\01.AvgAndSumInSequence.vcxproj", "{3A28F1E3-FCC2-488D-AB67-6B595AA941B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.ReverseNumbersUsingStack", "02.ReverseNumbersUsingStack\02.ReverseNumbersUsingStack.vcxproj", "{6FD2C63D-07B3-4771-AED5-610FD0C4EAA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.SortSequenceAscending", "03.SortSequenceAscending\03.SortSequenceAscending.vcxproj", "{27DBDE9C-CC9A-4632-964A-C5C8843BDAFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.FindLongetSubsequence", "04.FindLongetSubsequence\04.FindLongetSubsequence.vcxproj", "{FDDC2F39-AA79-4B71-B7F7-A9B71249BCA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.RemoveNegaviteValues", "05.RemoveNegaviteValues\05.RemoveNegaviteValues.vcxproj", "{596E932C-2ACB-4865-99A1-718E4DBC8899}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.RemoveOddOcurrencess", "06.RemoveOddOcurrencess\06.RemoveOddOcurrencess.vcxproj", "{F75B54B2-AF0F-4D80-A83E-27CB61388F42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.GetNumberOfOccurences", "07.GetNumberOfOccurences\07.GetNumberOfOccurences.vcxproj", "{44161EAD-CDAD-4C87-B98F-17DAFD2ED9B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A28F1E3-FCC2-488D-AB67-6B595AA941B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A28F1E3-FCC2-488D-AB67-6B595AA941B6}.Debug|Win32.Build.0 = Debug|Win32
+		{3A28F1E3-FCC2-488D-AB67-6B595AA941B6}.Release|Win32.ActiveCfg = Release|Win32
+		{3A28F1E3-FCC2-488D-AB67-6B595AA941B6}.Release|Win32.Build.0 = Release|Win32
+		{6FD2C63D-07B3-4771-AED5-610FD0C4EAA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FD2C63D-07B3-4771-AED5-610FD0C4EAA7}.Debug|Win32.Build.0 = Debug|Win32
+		{6FD2C63D-07B3-4771-AED5-610FD0C4EAA7}.Release|Win32.ActiveCfg = Release|Win32
+		{6FD2C63D-07B3-4771-AED5-610FD0C4EAA7}.Release|Win32.Build.0 = Release|Win32
+		{27DBDE9C-CC9A-4632-964A-C5C8843BDAFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27DBDE9C-CC9A-4632-964A-C5C8843BDAFE}.Debug|Win32.Build.0 = Debug|Win32
+		{27DBDE9C-CC9A-4632-964A-C5C8843BDAFE}.Release|Win32.ActiveCfg = Release|Win32
+		{27DBDE9C-CC9A-4632-964A-C5C8843BDAFE}.Release|Win32.Build.0 = Release|Win32
+		{FDDC2F39-AA79-4B71-B7F7-A9B71249BCA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDDC2F39-AA79-4B71-B7F7-A9B71249BCA5}.Debug|Win32.Build.0 = Debug|Win32
+		{FDDC2F39-AA79-4B71-B7F7-A9B71249BCA5}.Release|Win32.ActiveCfg = Release|Win32
+		{FDDC2F39-AA79-4B71-B7F7-A9B71249BCA5}.Release|Win32.Build.0 = Release|Win32
+		{596E932C-2ACB-4865-99A1-718E4DBC8899}.Debug|Win32.ActiveCfg = Debug|Win32
+		{596E932C-2ACB-4865-99A1-718E4DBC8899}.Debug|Win32.Build.0 = Debug|Win32
+		{596E932C-2ACB-4865-99A1-718E4DBC8899}.Release|Win32.ActiveCfg = Release|Win32
+		{596E932C-2ACB-4865-99A1-718E4DBC8899}.Release|Win32.Build.0 = Release|Win32
+		{F75B54B2-AF0F-4D80-A83E-27CB61388F42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F75B54B2-AF0F-4D80-A83E-27CB61388F42}.Debug|Win32.Build.0 = Debug|Win32
+		{F75B54B2-AF0F-4D80-A83E-27CB61388F42}.Release|Win32.ActiveCfg = Release|Win32
+		{F75B54B2-AF0F-4D80-A83E-27CB61388F42}.Release|Win32.Build.0 = Release|Win32
+		{44161EAD-CDAD-4C87-B98F-17DAFD2ED9B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44161EAD-CDAD-4C87-B98F-17DAFD2ED9B9}.Debug|Win32.Build.0 = Debug|Win32
+		{44161EAD-CDAD-4C87-B98F-17DAFD2ED9B9}.Release|Win32.ActiveCfg = Release|Win32
+		{44161EAD-CDAD-4C87-B98F-17DAFD2ED9B9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
