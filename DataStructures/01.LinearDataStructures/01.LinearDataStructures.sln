@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.AvgAndSumInSequence", "01.AvgAndSumInSequence\01.AvgAndSumInSequence.vcxproj", "{3A28F1E3-FCC2-488D-AB67-6B595AA941B6}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.Labyrinth", "14.Labyrinth\14.Labyrinth.vcxproj", "{C14102F2-A6B0-430C-A126-8B921E786C64}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.DoublyLinkedList", "15.DoublyLinkedList\15.DoublyLinkedList.vcxproj", "{B84C0C14-6977-4EF5-95C5-0FC64CE95ABC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.CircularQueue", "16.CircularQueue\16.CircularQueue.vcxproj", "{19C4F1E3-95A3-468E-BA8D-FA2DACF0578F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test.DataStructures", "Test.DataStructures\Test.DataStructures.vcxproj", "{C86DC34B-91A6-4122-99E4-107C174F6FBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{B84C0C14-6977-4EF5-95C5-0FC64CE95ABC}.Debug|Win32.Build.0 = Debug|Win32
 		{B84C0C14-6977-4EF5-95C5-0FC64CE95ABC}.Release|Win32.ActiveCfg = Release|Win32
 		{B84C0C14-6977-4EF5-95C5-0FC64CE95ABC}.Release|Win32.Build.0 = Release|Win32
+		{19C4F1E3-95A3-468E-BA8D-FA2DACF0578F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19C4F1E3-95A3-468E-BA8D-FA2DACF0578F}.Debug|Win32.Build.0 = Debug|Win32
+		{19C4F1E3-95A3-468E-BA8D-FA2DACF0578F}.Release|Win32.ActiveCfg = Release|Win32
+		{19C4F1E3-95A3-468E-BA8D-FA2DACF0578F}.Release|Win32.Build.0 = Release|Win32
+		{C86DC34B-91A6-4122-99E4-107C174F6FBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C86DC34B-91A6-4122-99E4-107C174F6FBB}.Debug|Win32.Build.0 = Debug|Win32
+		{C86DC34B-91A6-4122-99E4-107C174F6FBB}.Release|Win32.ActiveCfg = Release|Win32
+		{C86DC34B-91A6-4122-99E4-107C174F6FBB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
