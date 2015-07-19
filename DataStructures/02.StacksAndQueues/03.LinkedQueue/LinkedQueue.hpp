@@ -32,7 +32,8 @@ public:
 		return _linkList.front();
 	}
 
-	void push(const T item)
+	template<typename UR>
+	void push(UR&& item)
 	{
 		_linkList.pushBack(item);
 	}

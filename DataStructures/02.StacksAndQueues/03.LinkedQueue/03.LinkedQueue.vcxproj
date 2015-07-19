@@ -41,7 +41,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Radenkov\Desktop\Git\CPlusPlus\02.StacksAndQueues;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Radenkov\Desktop\Git\CPlusPlus\DataStructures\02.StacksAndQueues;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

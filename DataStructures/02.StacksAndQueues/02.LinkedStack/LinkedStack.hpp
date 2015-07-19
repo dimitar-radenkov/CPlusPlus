@@ -16,8 +16,8 @@ public:
 	~LinkedStack() 
 	{}
 	
-	template<typename TItem = T>
-	void push(TItem&& item)
+	template<typename UR>
+	void push(UR&& item)
 	{
 		auto current = std::make_shared<ListItem<TItem>>(std::forward<ListItem<T>>(item));
 		if (_count == 0)

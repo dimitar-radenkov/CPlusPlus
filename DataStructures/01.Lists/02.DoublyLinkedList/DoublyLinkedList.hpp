@@ -42,9 +42,10 @@ public:
 		return (_count == 0);
 	}
 
-	void addLast(T item)
+	template <typename UR>
+	void addLast(UR&& item)
 	{	
-		auto listItem = std::make_shared<ListItem<T>>(std::move(item));
+		auto listItem = std::make_shared<ListItem<T>>(item);
 
 		if (isEmpty())
 		{
@@ -61,9 +62,10 @@ public:
 		++_count;
 	}
 
-	void addFirst(T item)
+	template <typename UR>
+	void addFirst(UR&& item)
 	{
-		auto listItem = std::make_shared<DoublyListItem<T>>(std::move(item));
+		auto listItem = std::make_shared<DoublyListItem<T>>(item);
 
 		if (isEmpty())
 		{

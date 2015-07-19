@@ -33,10 +33,10 @@ public:
 		return _last->value();
 	}
 
-	template<typename TItem = T>
-	void pushBack(TItem&& value)
+	template<typename UR>
+	void pushBack(UR&& value)
 	{
-		auto current = std::make_shared<ListItem<T>>(std::forward<TItem>(value));
+		auto current = std::make_shared<ListItem<T>>(value);
 
 		if (_count == 0)
 		{	
@@ -78,10 +78,10 @@ public:
 		--_count;
 	}
 
-	template<typename TItem = T>
-	void pushFront(TItem&& value)
+	template<typename UR>
+	void pushFront(UR&& value)
 	{
-		auto current = std::make_shared<ListItem<T>>(std::forward<T>(value));
+		auto current = std::make_shared<ListItem<T>>(value);
 
 		if (_count == 0)
 		{

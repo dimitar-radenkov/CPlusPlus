@@ -10,8 +10,8 @@ class DoublyListItem
 
 public:
 
-	template <typename TValue = T>
-	DoublyListItem(TValue&& value)
+	template <typename UR>
+	DoublyListItem(UR&& value)
 	{
 		_value = std::forward<T>(value);
 	}

@@ -52,8 +52,8 @@ public:
 		delete[] _data;
 	}
 
-	template<typename TItem = T>
-	void enqueue(TItem&& item)
+	template<typename UR>
+	void enqueue(UR&& item)
 	{
 		if (_count >= _capacity)
 		{

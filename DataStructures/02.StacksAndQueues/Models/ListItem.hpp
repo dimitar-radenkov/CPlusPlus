@@ -11,10 +11,10 @@ class ListItem
 
 public:
 
-	template<typename TItem = T>
-	ListItem(TItem&& value)		
+	template<typename UR>
+	ListItem(UR&& value)		
 	{
-		_value = std::forward<TItem>(value);
+		_value = std::forward<T>(value);
 	}
 	
 
@@ -24,8 +24,8 @@ public:
 	}
 
 
-	template<typename TItem = T>
-	void value(TItem&& value)
+	template<typename UR>
+	void value(UR&& value)
 	{
 		_value = std::forward<T>(value);
 	}

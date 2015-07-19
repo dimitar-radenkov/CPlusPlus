@@ -101,8 +101,8 @@ public:
 		return *this;
 	}
 
-	template <typename Titem = T>
-	void push(Titem&& item)
+	template<typename UR>
+	void push(UR&& item)
 	{
 		if (_count == _capacity)
 		{
