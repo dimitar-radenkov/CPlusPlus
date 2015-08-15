@@ -19,7 +19,7 @@ public:
 	template<typename UR>
 	void push(UR&& item)
 	{
-		auto current = std::make_shared<ListItem<TItem>>(std::forward<ListItem<T>>(item));
+		auto current = std::make_shared<ListItem<UR>>(item);
 		if (_count == 0)
 		{
 			_top = current;

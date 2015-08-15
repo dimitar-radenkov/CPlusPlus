@@ -81,7 +81,7 @@ public:
 	template<typename UR>
 	void pushFront(UR&& value)
 	{
-		auto current = std::make_shared<ListItem<T>>(value);
+		auto current = std::make_shared<ListItem<UR>>(value);
 
 		if (_count == 0)
 		{

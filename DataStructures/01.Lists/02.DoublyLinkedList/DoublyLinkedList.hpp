@@ -45,7 +45,7 @@ public:
 	template <typename UR>
 	void addLast(UR&& item)
 	{	
-		auto listItem = std::make_shared<ListItem<T>>(item);
+		auto listItem = std::make_shared<ListItem<UR>>(item);
 
 		if (isEmpty())
 		{
@@ -65,7 +65,7 @@ public:
 	template <typename UR>
 	void addFirst(UR&& item)
 	{
-		auto listItem = std::make_shared<DoublyListItem<T>>(item);
+		auto listItem = std::make_shared<DoublyListItem<UR>>(item);
 
 		if (isEmpty())
 		{

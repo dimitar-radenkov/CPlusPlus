@@ -118,7 +118,7 @@ public:
 			++_top;			
 		}
 
-		*_top = std::forward<T>(item);
+		*_top = std::forward<UR>(item);
 		++_count;
 	}
 

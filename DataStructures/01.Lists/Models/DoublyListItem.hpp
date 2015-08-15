@@ -13,7 +13,7 @@ public:
 	template <typename UR>
 	DoublyListItem(UR&& value)
 	{
-		_value = std::forward<T>(value);
+		_value = std::forward<UR>(value);
 	}
 
 	~DoublyListItem()

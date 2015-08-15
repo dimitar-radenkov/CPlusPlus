@@ -65,7 +65,7 @@ public:
 			_tailIndex = 0;
 		}
 
-		_data[_tailIndex++] = std::forward<T>(item);
+		_data[_tailIndex++] = std::forward<UR>(item);
 		++_count;
 	}
 

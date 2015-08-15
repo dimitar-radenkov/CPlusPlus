@@ -2,6 +2,7 @@
 #define __BINARY_TREE_HPP__
 
 #include <memory>
+#include <tuple>
 #include <iostream>
 
 template <typename T>
@@ -13,29 +14,14 @@ class BinaryTree
 
 public:
 
-	template <typename TValue = T>
-	BinaryTree(T&& value)
+	template <typename UR>
+	BinaryTree(UR&& value, 
+		std::shared_ptr<BinaryTree<T>> left = nullptr,
+		std::shared_ptr<BinaryTree<T>> right = nullptr)
 	{
-		_value = std::forward<T>(value);
-	}
-
-	template <typename TValue = T>
-	BinaryTree(TValue&& value,
-		BinaryTree<T>&& left)
-	{
-		_value = std::forward<T>(value);
-		_left = std::make_shared<BinaryTree<T>>(left);
-		_right = nullptr;
-	}
-
-	template <typename TValue = T>
-	BinaryTree(TValue&& value,
-		BinaryTree<T>&& left,
-		BinaryTree<T>&& right)
-	{
-		_value = std::forward<T>(value);
-		_left = std::make_shared<BinaryTree<T>>(left);
-		_right = std::make_shared<BinaryTree<T>>(right);
+		_value = std::forward<UR>(value);
+		_left = left;
+		_right = right;
 	}
 
 	void traverse(int depth = 1) const

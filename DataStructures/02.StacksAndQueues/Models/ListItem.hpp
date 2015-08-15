@@ -14,7 +14,7 @@ public:
 	template<typename UR>
 	ListItem(UR&& value)		
 	{
-		_value = std::forward<T>(value);
+		_value = std::forward<UR>(value);
 	}
 	
 
@@ -27,7 +27,7 @@ public:
 	template<typename UR>
 	void value(UR&& value)
 	{
-		_value = std::forward<T>(value);
+		_value = std::forward<UR>(value);
 	}
 
 

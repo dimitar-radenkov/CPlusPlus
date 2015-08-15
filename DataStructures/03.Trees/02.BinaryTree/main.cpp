@@ -2,22 +2,11 @@
 
 int main()
 {
-
-
-	BinaryTree<int> tree(
-		1,
-		BinaryTree<int>(
-			11,
-			BinaryTree<int>(111),
-			BinaryTree<int>(112)),
-		BinaryTree<int>(
-			12,
-			BinaryTree<int>(121),
-			BinaryTree<int>(122))
-		);
+	BinaryTree<int> tree(1, 
+		std::make_shared<BinaryTree<int>>(2), 
+		std::make_shared<BinaryTree<int>>(3));
 
 	tree.traverse();
-
-
+	
 	return 0;
 }

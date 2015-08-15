@@ -14,13 +14,13 @@ class Tree
 public:
 
 	template <typename UR>
-	Tree(UR&& value, std::initializer_list<Tree<T>>&& initList = {})
+	Tree(UR&& value, std::initializer_list<Tree<UR>>&& initList = {})
 	{
-		_value = std::forward<T>(value);
+		_value = std::forward<UR>(value);
 
 		for (auto& li : initList)
 		{
-			_children.emplace_back(std::make_shared<Tree<T>>(li));
+			_children.emplace_back(std::make_shared<Tree<UR>>(li));
 		}
 	}
 	 
@@ -33,7 +33,7 @@ public:
 	template <typename UR>
 	void value(UR&& value)
 	{
-		_value = std::forward<T>(value);
+		_value = std::forward<UR>(value);
 	}
 
 
