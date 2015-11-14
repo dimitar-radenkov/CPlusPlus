@@ -7,18 +7,6 @@
 template<typename T>
 class DoublyLinkedList
 {
-	std::size_t _count;
-	std::shared_ptr<DoublyListItem<T>> _first;
-	std::shared_ptr<DoublyListItem<T>> _last;
-
-	void throwIfEmpty()
-	{
-		if (isEmpty())
-		{
-			throw new std::exception("list is empty");
-		}
-	}
-
 public:
 
 	DoublyLinkedList()
@@ -119,5 +107,18 @@ public:
 
 		return val;
 	}	
+
+	private:
+		std::size_t _count;
+		std::shared_ptr<DoublyListItem<T>> _first;
+		std::shared_ptr<DoublyListItem<T>> _last;
+
+		void throwIfEmpty()
+		{
+			if (isEmpty())
+			{
+				throw new std::exception("list is empty");
+			}
+		}
 };
 
